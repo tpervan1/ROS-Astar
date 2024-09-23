@@ -1,0 +1,11 @@
+S obzirom da mi je prilikom snimanja videa sve usporilo, preporucujem ili da se video ubrza, ili da se gleda na premotavanje.
+
+Inace, samo kretanje robota je dosta sporo, vjerovatno zbog velikog broja tacaka koje je potrebno podsjetiti, te niske tolerancije na gresku. Moze se algoritam kretanja sigurno malo unaprijediti, jer je koristen algoritam sa LV2-3.
+
+Robot je kod centralne prepreke promijenio pravac malo vise nego sto treba (vidi se i na slici promjena pravca, ali je jako mala). U sustini, ima tolerancija na gresku od 0.025, a moguce je dodatno prilikom kreiranja mape prosiriti prepreke, bez izmjene algoritma.
+
+Mislio sam snimati i video sa talkerom, gdje talker salje 4 tacke koje je potrebno posjetiti, kao sto ima u izvjestaju, ali s obzirom koliko
+je ovo vec sporo, odlucio sam da ipak necu.
+
+Prilikom izvrsavanja je samo potrebno ne gasiti prozor sa mapom (Force Quit), jer će to prekinuti rad listenera.
+

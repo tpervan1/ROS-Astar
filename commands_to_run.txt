@@ -1,0 +1,9 @@
+In catkin_ws run:
+
+roslaunch turtlebot3_gazebo turtlebot3_world.launch 
+roslaunch turtlebot3_gazebo turtlebot3_gazebo_rviz.launch
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+rosrun seminarski_mr listener
+source ./devel/setup.bash
+rosrun map_server map_server map01.yaml
+rosrun tf static_transform_publisher 0 0 0 0 0 0 map odom 100
